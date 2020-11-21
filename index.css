@@ -1,0 +1,30 @@
+body {
+    display: flex;
+}
+
+#gameContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#tetris {
+    margin: 2em 2em;
+    border: 1px solid gray;
+}
+.scoreContainer {
+    flex: 1;
+    margin: 2em 2em;
+}
+
+#score {
+    display:inline;
+}
+
+.nextItem {
+    margin-right: 1em;
+}
+
+.preview {
+    display: flex;
+    flex-direction: row;
+}

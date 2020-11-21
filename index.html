@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tetris Clone</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="gameContainer">
+        <canvas height="400px" width="200px" id='tetris'></canvas>
+        <div class="scoreContainer">
+            <div class="preview">
+                <p class="nextItem">Next Item:</p>
+                <canvas height="80px" width="80px" id="preview"></canvas>
+            </div>
+            Score: <p id="score"></p>
+        </div>
+    </div>
+    <script src="tetrominoes.js"></script>
+    <script src="Piece.js"></script>
+    <script src="tetris.js"></script>
+</body>
+
+</html>
